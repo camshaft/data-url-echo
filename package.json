@@ -1,0 +1,21 @@
+{
+  "name": "data-url-echo",
+  "version": "0.1.0",
+  "description": "Echo back data urls as downloads",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": "",
+  "author": "Cameron Bytheway <cameron@nujii.com>",
+  "license": "MIT",
+  "dependencies": {
+    "startup": "~0.1.12",
+    "simple-stack-common": "~0.1.3",
+    "should": "~1.2.2",
+    "mocha": "~1.9.0",
+    "supertest": "~0.6.0",
+    "connect": "~2.7.6",
+    "connect-metric": "~0.2.1"
+  }
+}
